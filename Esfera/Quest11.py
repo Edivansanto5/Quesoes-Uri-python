@@ -12,3 +12,10 @@
     3
     VOLUME = 113.097
 '''
+PI = 3.14159
+raio = float(input())
+volume = (4/3.0)*PI
+elevaçao = raio**3
+areaDaesfera = elevaçao * volume
+
+print('VOLUME = {:.3f}'.format(areaDaesfera))
