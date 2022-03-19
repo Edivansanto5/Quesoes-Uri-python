@@ -12,12 +12,6 @@
 '''
 
 
-
-from ctypes.wintypes import DOUBLE
-from tkinter import DoubleVar
-from tokenize import Double3
-
-
 A = float(input());
 B = float(input());
 peso1 = 3.5;
