@@ -10,3 +10,19 @@
     7.1
     MEDIA = 6.43182
 '''
+
+
+
+from ctypes.wintypes import DOUBLE
+from tkinter import DoubleVar
+from tokenize import Double3
+
+
+A = float(input());
+B = float(input());
+peso1 = 3.5;
+peso2 = 7.5;
+somaDosPeso = peso1 + peso2;
+somaDasNotas = (A * peso1) + (B * peso2);
+media = somaDasNotas/somaDosPeso
+print('MEDIA = {:.5f}'.format (media))
