@@ -11,7 +11,6 @@
     MEDIA = 6.43182
 '''
 
-
 A = float(input());
 B = float(input());
 peso1 = 3.5;
