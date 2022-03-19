@@ -6,6 +6,19 @@
 
     Saída
     Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
-
-
+    exemplo:
+    JOAO
+    500
+    1230.30
+    TOTAL = R$ 684.54
 '''
+porcentagem = 0.15 # 15/100 = 0,15
+nome = str(input())
+salarioFixo = float(input())
+
+totalDeVendasEfetuadas = float(input())
+valorDoAlmento = (totalDeVendasEfetuadas * porcentagem)
+salarioTotal = valorDoAlmento + salarioFixo
+
+print('TOTAL = U$ {:.2f}' .format(salarioTotal))
+
