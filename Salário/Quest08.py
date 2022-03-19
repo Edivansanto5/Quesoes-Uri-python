@@ -14,8 +14,8 @@
 '''
 numeroDoTrabalhador = int(input())
 valorTrabalhada = int(input())
-horaTrabalhada = float(input())
-salarioTotal = valorTrabalhada * horaTrabalhada
+quantidadeDeHorastrabalhadas = float(input())
+salarioTotal = valorTrabalhada * quantidadeDeHorastrabalhadas
 
 print('NUMBER =',numeroDoTrabalhador)
-print('NUMBER = U$ {:.2f}' .format(salarioTotal))
+print('SALARY = U$ {:.2f}' .format(salarioTotal))
