@@ -12,8 +12,6 @@
     PROD = 12
 
 '''
-
-
 A = int(input())
 B = int(input())
 PROD = A * B
