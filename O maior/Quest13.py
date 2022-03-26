@@ -11,4 +11,15 @@
     exemplo:
     7 14 106
     106 eh o maior
+    
 '''
+a = int(input())
+b = int(input())
+c = int(input())
+if ( a>b and a>c):{
+   print(a,'a he o maior')  
+}
+elif(b>a or b>c):{
+    print(b,'b e o maior')
+}
+print('acabou')
