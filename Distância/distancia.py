@@ -13,3 +13,6 @@ exemplo:
 30
 60 minutos
 '''
+x = int(input())
+minuto = x * 2
+print('{} minutos'.format(minuto))
