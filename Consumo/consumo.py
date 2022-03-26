@@ -14,4 +14,4 @@
 x = int(input())
 y = float(input())
 cosumoMedio = x/y
-print('{:.3f} km/l '.format(cosumoMedio))
+print('{:.3f} km/l'.format(cosumoMedio))
