@@ -15,3 +15,10 @@
     5 dia(s)
     
 '''
+ano = 365
+mes = 12
+dia = 30
+
+entrada = int(input())
+resul = entrada // ano
+print(resul)
