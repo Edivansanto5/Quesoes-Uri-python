@@ -38,14 +38,14 @@ nota02 = notaDe02 // 2
 
 notaDe01 = notaDe02 % 2
 nota01  = notaDe01 // 1
+print('{} nota(s) de R$ 100,00'.format(nota100))
+print('{} nota(s) de R$ 50,00'.format(nota50))
+print('{} nota(s) de R$ 20,00'.format(nota20))
+print('{} nota(s) de R$ 10,00'.format(nota10))
+print('{} nota(s) de R$ 5,00'.format(nota05))
+print('{} nota(s) de R$ 2,00'.format(nota02))
+print('{} nota(s) de R$ 1,00'.format(nota01))
 
-print('{} nota(s) de R$ 100,00 '.format(nota100))
-print('{} nota(s) de R$ 50,00 '.format(nota50))
-print('{} nota(s) de R$ 20,00 '.format(nota20))
-print('{} nota(s) de R$ 10,00 '.format(nota10))
-print('{} nota(s) de R$ 5,00 '.format(nota05))
-print('{} nota(s) de R$ 2,00 '.format(nota02))
-print('{} nota(s) de R$ 1,00 '.format(nota01))
 
 
 
