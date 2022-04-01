@@ -12,12 +12,13 @@
     566
     0:9:16
 '''
+n = int(input())
+horas = n // 3600
+minutos =  n % 3600
+minu = minutos // 60
+seg = minutos % 60
 
-N = int(input())
-minuto = N // 60
-hora = minuto // 60
-segundos = minuto % 60
-print('{}:{}:{}'.format(hora,minuto,segundos))
+print('{}:{}:{}'.format(horas,minu,seg))
 
 
 
