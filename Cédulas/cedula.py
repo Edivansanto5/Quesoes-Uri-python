@@ -9,3 +9,4 @@ nota20 = notaDe20 // 20
 notaDe10 = notaDe20 % 20
 print('{} nota(s) de R$ 100,00 '.format(nota100))
 print('{} nota(s) de R$ 50,00 '.format(nota50))
+print('{} nota(s) de R$ 20,00 '.format(nota20))
