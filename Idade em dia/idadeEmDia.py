@@ -15,10 +15,27 @@
     5 dia(s)
     
 '''
-ano = 365
-mes = 12
-dia = 30
+from cgitb import reset
+
+
+anos = 365
+meses = 12
+dias = 30
 
 entrada = int(input())
-resul = entrada // ano
-print(resul)
+ano = entrada // anos
+
+restoDoAno = entrada % anos
+mes  = restoDoAno // dias
+dia = restoDoAno % dias
+
+print('{} ano(s)'.format(ano))
+print('{} mes(es)'.format(mes))
+print('{} dia(s)'.format(dia))
+
+
+
+
+
+
+
