@@ -14,6 +14,8 @@ notaDe05 = notaDe10 % 10
 nota05 = notaDe05 // 5
 notaDe02 = notaDe05 % 5
 
+nota02 = notaDe02 // 2
+
 print('{} nota(s) de R$ 100,00 '.format(nota100))
 print('{} nota(s) de R$ 50,00 '.format(nota50))
 print('{} nota(s) de R$ 20,00 '.format(nota20))
