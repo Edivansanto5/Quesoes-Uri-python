@@ -1,1 +1,1 @@
-
+nota = int(input())
