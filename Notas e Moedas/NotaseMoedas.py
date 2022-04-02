@@ -29,3 +29,14 @@
     3 moeda(s) de R$ 0.01
     
 '''
+
+from tkinter import N
+
+
+valor = float(input())
+nota100 = valor // 100.00
+nota50 = valor%100
+valor50 = nota50//50
+
+print('{:.0f} nota(s) de R$ 100.00'.format(nota100))
+print('{:.0f} nota(s) de R$ 50.00'.format(valor50))
