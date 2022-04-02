@@ -50,6 +50,7 @@ valor5 = nota5 // 5
 nota2 = nota10 % 5
 valor2 = nota2 // 2
 # comen
+print('')
 print('{:.0f} nota(s) de R$ 100.00'.format(valor100))
 print('{:.0f} nota(s) de R$ 50.00'.format(valor50))
 print('{:.0f} nota(s) de R$ 20.00'.format(valor20))
