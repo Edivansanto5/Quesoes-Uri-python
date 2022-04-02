@@ -34,9 +34,13 @@ from tkinter import N
 
 
 valor = float(input())
-nota100 = valor // 100.00
+valor100 = valor // 100
 nota50 = valor%100
 valor50 = nota50//50
 
-print('{:.0f} nota(s) de R$ 100.00'.format(nota100))
+nota20 = valor%50
+valor20 = nota20//20
+
+print('{:.0f} nota(s) de R$ 100.00'.format(valor100))
 print('{:.0f} nota(s) de R$ 50.00'.format(valor50))
+print('{:.0f} nota(s) de R$ 20.00'.format(valor20))
