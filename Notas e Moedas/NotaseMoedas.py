@@ -44,7 +44,17 @@ valor20 = nota20//20
 nota10 = nota20%20
 valor10 = nota10//10
 
+nota5 = nota10 % 10
+valor5 = nota5 // 5
+
+nota2 = nota10 % 5
+valor2 = nota2 // 2
+
 print('{:.0f} nota(s) de R$ 100.00'.format(valor100))
 print('{:.0f} nota(s) de R$ 50.00'.format(valor50))
 print('{:.0f} nota(s) de R$ 20.00'.format(valor20))
 print('{:.0f} nota(s) de R$ 10.00'.format(valor10))
+print('{:.0f} nota(s) de R$ 5.00'.format(valor5))
+print('{:.0f} nota(s) de R$ 2.00'.format(valor2))
+
+
